@@ -1,12 +1,13 @@
 # 研修で学んだVB.Net MVCの基礎
 
-VisualBasicでMVC開発に携わることになりプログラミングの研修がありました。
+VisualBasicでMVC開発に
+携わることになりプログラミングの研修がありました。
 その研修で出ました課題をここに残したいと思います。
 
 僕自身の勉強のためにも完成したものはここに挙げたいと思います。
 ※Lessonのラスト問題を解いたもののみになります。
 
-## Lesson1
+## Lesson1 VisualBasicの基本構文
 ### Lesson1-1
 
 For文を使い1~100まで表示する
@@ -35,7 +36,7 @@ Dim arrayScore() As Integer = {50, 40, 80, 40, 0}
 #### 完成したもの
 パスを書くか
 
-## Lesson2
+## Lesson2 ログイン認証
 ### Lesson2-1
 ログイン画面を作る
 ログインできるユーザは「UserID:saitou PassWord:makoto」のみ
