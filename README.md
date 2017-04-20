@@ -44,10 +44,10 @@ Dim arrayScore() As Integer = {50, 40, 80, 40, 0}
 ログイン認証はモデルで行い、空判定はコントローラーで行う。
 
 <p>ログイン情報を入力してください。</p>
-<form>
+<form method="post">
 UserID:  <input type="text">※空の場合はエラーメッセージを表示<br />
 PassWord:<input type="password">※空の場合はエラーメッセージを表示<br />
-<input type="button" value="ログイン">
+<input type="submit" value="ログイン">
 ※ログイン情報が間違っていた場合はエラーメッセージを表示
 </form>
 
